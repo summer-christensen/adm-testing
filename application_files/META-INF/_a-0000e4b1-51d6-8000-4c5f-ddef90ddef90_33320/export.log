@@ -1,0 +1,54 @@
+Success (3):
+datatype 3457 {urn:com:appian:types:Number}adm-testing-type "{urn:com:appian:types:Number}adm-testing-type"
+dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 "adm-test-data-store"
+application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 "adm-workshop-app"
+
+Trace:
+2020-06-25 17:37:34.387 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Begin transport.
+2020-06-25 17:37:34.387 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Retrieving object data.
+2020-06-25 17:37:34.4 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 App associated objects: [datatype=[{urn:com:appian:types:Number}adm-testing-type],dataStore=[_a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327]]
+2020-06-25 17:37:34.402 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Invalid associated objects: []
+2020-06-25 17:37:34.402 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{urn:com:appian:types:Number}adm-testing-type=3457},dataStore={_a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327=5556}]
+2020-06-25 17:37:34.402 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Setting uuids of object references.
+2020-06-25 17:37:34.402 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: Application.forum
+2020-06-25 17:37:34.403 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: Application.parent
+2020-06-25 17:37:34.41 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@502c0c0c[
+  ContentRole[name=readers,inherit=false,allowForAll=true]
+  ContentRole[name=authors,inherit=false,allowForAll=true]
+  ContentRole[name=administrators,inherit=false,allowForAll=true]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=113:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=true,SEC_ALL_EDITOR=true,SEC_ALL_VIEWER=true
+]
+2020-06-25 17:37:34.41 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=true]
+2020-06-25 17:37:34.41 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=true]
+2020-06-25 17:37:34.41 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=true]
+2020-06-25 17:37:34.41 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-06-25 17:37:34.411 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-06-25 17:37:34.411 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-06-25 17:37:34.411 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Begin transport.
+2020-06-25 17:37:34.411 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Retrieving object data.
+2020-06-25 17:37:34.434 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Setting uuids of object references.
+2020-06-25 17:37:34.435 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Completing produce.
+2020-06-25 17:37:34.435 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Exporting binary resources.
+2020-06-25 17:37:34.435 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Serializing object to XML.
+2020-06-25 17:37:34.438 DEBUG datatype 3457 {urn:com:appian:types:Number}adm-testing-type Object transported.
+2020-06-25 17:37:34.444 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Begin transport.
+2020-06-25 17:37:34.444 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Retrieving object data.
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Setting uuids of object references.
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: datatypeRef[id=3457]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=true]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=true]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=true]
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Completing produce.
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Exporting binary resources.
+2020-06-25 17:37:34.462 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Serializing object to XML.
+2020-06-25 17:37:34.467 DEBUG dataStore 5556 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33327 Object transported.
+2020-06-25 17:37:34.467 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Completing produce.
+2020-06-25 17:37:34.467 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Exporting binary resources.
+2020-06-25 17:37:34.467 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Serializing object to XML.
+2020-06-25 17:37:34.474 DEBUG application 5526 _a-0000e4b1-51d6-8000-4c5f-ddef90ddef90_33320 Object transported.
